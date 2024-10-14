@@ -10,7 +10,6 @@ blueprint:
     remote1:
       name: On/Off Switch
       description: IKEA switch to use
-      default:
       selector:
         device:
           integration: zha
