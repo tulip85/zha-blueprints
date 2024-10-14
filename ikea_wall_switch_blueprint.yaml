@@ -14,7 +14,8 @@ blueprint:
         device:
           integration: zha
           manufacturer: 'IKEA of Sweden'
-          device_class: switch
+          entity:
+            domain: switch
     button_on_short:
       name: On button press
       description: Action to run on press of On button
